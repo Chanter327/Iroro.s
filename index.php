@@ -84,10 +84,8 @@
         <a href="#art">Art</a>
         <a href="#contact">Contact</a>
         <div class="sns-container">
-          <span>Coming Soon</span><br />
-          <i class="fa-brands fa-x-twitter fa-3x"></i>
-          <i class="fa-brands fa-facebook-f fa-3x"></i>
-          <i class="fa-brands fa-instagram fa-3x"></i>
+          <a class="to-sns" href="https://twitter.com/iroro_ss" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a class="to-sns" href="https://www.instagram.com/iroro_ts/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -101,9 +99,8 @@
             <a href="#art" class="nav-content">Art</a>
             <a href="#contact" class="nav-content">Contact</a>
             <div class="nav-content sns">
-              <i class="fa-brands fa-x-twitter fa-lg"></i>
-              <i class="fa-brands fa-facebook-f fa-lg"></i>
-              <i class="fa-brands fa-instagram fa-lg"></i>
+              <a class="to-sns" href="https://twitter.com/iroro_ss" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a class="to-sns" href="https://www.instagram.com/iroro_ts/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
           <div id="hmb">
@@ -665,14 +662,10 @@
               <a href="#contact">Contact</a>
             </div>
             <div class="footer-sns-container">
-              <span>Coming Soon</span><br />
-              <i class="fa-brands fa-x-twitter fa-3x"></i>
-              <i class="fa-brands fa-facebook-f fa-3x"></i>
-              <i class="fa-brands fa-instagram fa-3x"></i>
+              <a class="to-sns" href="https://twitter.com/iroro_ss" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a class="to-sns" href="https://www.instagram.com/iroro_ts/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a class="mail" href="mailto:info@irorodot-s.com"
-              >info@irorodot-s.com</a
-            >
+            <a class="mail" href="mailto:info@irorodot-s.com">info@irorodot-s.com</a>
           </div>
         </footer>
       </div>

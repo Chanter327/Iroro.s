@@ -165,17 +165,19 @@ body {
       text-align: center;
       font-size: 4rem;
       border-bottom: 1px solid black;
+      &.to-sns {
+        display: inline;
+        border: none;
+        font-size: 3rem;
+        &:nth-of-type(1) {
+          padding-right: 2rem;
+        }
+      }
     }
     .sns-container {
-      margin-top: 10rem;
+      margin-top: 5rem;
       height: max-content;
       text-align: center;
-      span {
-        font-size: 2rem;
-      }
-      i {
-        width: 5rem;
-      }
     }
   }
   &.displayed {
@@ -238,12 +240,15 @@ header {
           }
         }
       }
-      i {
-        width: 3rem;
-      }
       &.sns {
-        text-align: center;
-        padding-right: 0;
+        .to-sns {
+          color: inherit;
+          text-decoration: none;
+          font-size: 2.5rem;
+          &:nth-of-type(1) {
+            padding-right: 1rem;
+          }
+        }
       }
     }
     @media screen and (max-width: 850px) {
@@ -266,14 +271,14 @@ header {
       position: absolute;
       transition: 0.5s;
       &:first-of-type {
-        width: 65%;
-        top: calc(35% + 1px);
-        left: 17.5%;
+        width: 60%;
+        top: calc(40% - 1px);
+        left: 20%;
       }
       &:nth-of-type(2) {
-        width: 35%;
-        top: calc(65% - 1px);
-        left: 47.5%;
+        width: 30%;
+        top: calc(60% + 1px);
+        left: 50%;
       }
     }
     &.black {
@@ -329,11 +334,10 @@ header {
         background-color: white;
         pointer-events: none;
         transform: scaleX(1);
-        transform-origin: top right;
       }
       &.fadeIn {
         &::before {
-          animation: topLogoAnimation 15s ease-in;
+          animation: topLogoAnimation 15s;
         }
       }
       .top-logo {
@@ -381,6 +385,7 @@ header {
 @keyframes topLogoAnimation {
   0% {
     transform: scaleX(1);
+    transform-origin: top right;
   }
   5% {
     transform: scaleX(0);
@@ -390,6 +395,7 @@ header {
   }
   100% {
     transform: scaleX(1);
+    transform-origin: top left;
   }
 }
 
@@ -1004,11 +1010,13 @@ footer {
     .footer-sns-container {
       text-align: center;
       margin-top: 5rem;
-      span {
-        font-size: 2rem;
-      }
-      i {
-        width: 5rem;
+      .to-sns {
+        color: inherit;
+        text-decoration: none;
+        font-size: 2.5rem;
+        &:nth-of-type(1) {
+          padding-right: 1rem;
+        }
       }
     }
     .mail {
